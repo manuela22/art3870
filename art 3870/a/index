@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>art2830 home page</title>
+  <meta name="description" content="Manuela's home page art 2830 fall 2015">
+
+  <style type="text/css">
+  h1{
+    color:#ee3e80;}
+
+   h1{
+    font-size: 3.0em;
+
+  }
+    p{
+      position: relative;
+      width: 400px;
+      top: -400px;
+      left: 820px;}
+      li {
+        float: left;
+        background-color: #EFD9CE;}
+
+        li{
+          display: inline;
+          }
+
+          li {
+            float: none;
+            background-color: #EFD9CE;}
+body{
+  background-color:purple;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+a:visited {
+   text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    background-color: hotpink
+  }
+
+    a:active {
+    background-color: orange;
+
+}
+
+
+
+
+
+    </style>
+
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1>art 2830 -Manuela's home page</h1>
+  <p>I love fashion!!</p>
+
+
+        <nav class="row">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="lab1/index.html">lab 1</a></li>
+      <li><a href="lab2/index.html">lab 2</a></li>
+
+      <li><a href="lab3/index.html">lab 3</a></li>
+      <li><a href="lab4/index.html">lab 4</a></li>
+      <li><a href="project1/index.html">project 1</a></li>
+      <li><a href="project2/index.html">project 2</a></li>
+      <li><a href="template.html">template</a></li>
+      <li><a href="quiz.html/index.html">quiz</a></li>
+
+  </ul>
+</nav>
+</body>
+</html>

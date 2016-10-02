@@ -1,5 +1,30 @@
 * {
-  border:1px solid red;
+  border:1px solid white;
 }
 
-#greeting{color:red;}
+#greeting{color:black;}
+
+.img-circle {
+    border-radius: 50%; margin: auto;
+    display: block;
+
+
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+
+    color:#blue;
+
+     font-size: 4.0em;}
+
+}
+
+ {
+  background-color: #8652CE ;
+
+
+}
+h2 {
+  font-family: 'PT Sans', sans-serif; text-align: center;
+}

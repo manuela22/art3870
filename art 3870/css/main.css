@@ -3,6 +3,7 @@
 }
 
 #greeting{color:black;}
+{float: left;}
 
 .img-circle {
     border-radius: 50%; margin: auto;
@@ -26,5 +27,194 @@ h1 {
 
 }
 h2 {
-  font-family: 'PT Sans', sans-serif; text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.hi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+    width: 182px;
+    height: 234px;
+    background-image: url("../img/ed.jpg");
+
+    -webkit-animation: play .8s steps(6) infinite;
+       -moz-animation: play .8s steps(6) infinite;
+        -ms-animation: play .8s steps(6) infinite;
+         -o-animation: play .8s steps(6) infinite;
+            animation: play .8s steps(6) infinite;
+
+}
+
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1040px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1040px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1040px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1040px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1040px; }
+}
+
+@import url(<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+);
+*, *:before, *:after {
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+body {
+  background:#EBCAAA;
+  font-family: 'Abel', sans-serif;
+}
+html, body {
+  width:100%;
+  height:100%;
+  text-align:center;
+  color:black;
+}
+q {
+  position:absolute;
+  top:35%;
+  left:50%;
+  width:90%;
+  font-size:3rem;
+  font-weight:700;
+  font-style:italic;
+  letter-spacing:-1.5rem;
+  opacity:0;
+  transform:translateX(-50%) translateY(-50%);
+}
+q:nth-child(1) {
+  animation:expand-1 6s infinite;
+}
+q:nth-child(2) {
+  animation:expand-2 6s infinite;
+}
+@keyframes expand-1 {
+  0%, 60%, 100% {
+    letter-spacing:-1.5rem;
+    opacity:0;
+  }
+  10%, 50% {
+    letter-spacing:0;
+    opacity:1;
+  }
+}
+@keyframes expand-2 {
+  0%, 60%, 100% {
+    letter-spacing:0;
+    opacity:1;
+  }
+  10%, 50% {
+    letter-spacing:-1.5rem;
+    opacity:0;
+  }
+}
+span {
+  position:absolute;
+  top:20%;
+  left:25%;
+  transform:translateX(-50%) translateY(-50%);
+}
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700italic);
+p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  font-size: 3rem;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  body {
+  background:#EBCAAA;;
+  font-family: 'Merriweather', serif;
+}
+
+
+}
+
+
+
+
+.img-rotate-x
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+.img-rotate-x:hover
+{
+transform:rotateX(180deg);
+-webkit-transform:rotateX(180deg);
+-moz-transform:rotateX(180deg);
+-ms-transform:rotateX(180deg);
+-o-transform:rotateX(180deg);
+}
+
+.img-rotate-scale
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+.img-rotate-scale:hover
+{
+transform:rotate(720deg) scale(2,2);
+-webkit-transform:rotate(720deg) scale(2,2);
+-moz-transform:rotate(720deg) scale(2,2);
+-ms-transform:rotate(720deg) scale(2,2);
+-o-transform:rotate(720deg) scale(2,2);
+}
+
+.img-rotate-z
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+.img-rotate-z:hover
+{
+transform:rotateZ(180deg);
+-webkit-transform:rotateZ(180deg);
+-moz-transform:rotateZ(180deg);
+-ms-transform:rotateZ(180deg);
+-o-transform:rotateZ(180deg);
 }

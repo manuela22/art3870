@@ -1,0 +1,197 @@
+
+
+.color:hover
+{
+        background:#000;
+}
+
+table {border: none;}
+
+
+ h1,h2,h3,h4,h5 {font-family: 'Megrim', cursive;}
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #79A4AA;
+  font-family: 'Montserrat', sans-serif;
+  height:100% !important;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* ---- section 1 - top ---- */
+
+.section1 {
+    height: 400px;
+    position: relative;
+
+}
+
+.section1 img {
+  position: absolute;
+  bottom: 0;
+}
+
+/* --- walk cycle -- */
+
+.walking {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/walk-cycle.png");
+  height: 133px;
+  width: 91px;
+  position: absolute;
+  bottom: 55px;
+  transform: translateZ(0);
+  animation: walking 1.2s 2s steps(4) 25, across 30s linear 2s both; repeat;
+  animation-duration: 6s;
+	animation-timing-function:walking 1.2s 2s steps(4) 25;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes walking {
+  0% {background-position: 0 0; }
+  100% {background-position: -364px 0; }
+}
+
+@keyframes across {
+  0% { left: 0%; }
+  100% { left: 94%; }
+
+}
+
+* {
+  border:1px transparent;
+}
+
+
+.img-circle {
+    border-radius: 50%; margin: auto;
+    display: block;
+
+
+}
+
+h1, h2,h3,h4,h5 {
+
+
+     font-size: 5.5em;}
+
+}
+
+
+
+ {
+  background-color: #grey ;
+
+
+}
+
+
+}
+
+#ja{
+  visibility: hidden;
+}
+
+#sh{
+  visibility: hidden;
+}
+#giv{
+  visibility: hidden;
+}
+#chloe{
+  visibility: hidden;
+}
+#st{
+  visibility: hidden;
+}
+
+#shine{
+  visibility: hidden;
+}
+
+#hee{
+  visibility: hidden;
+}
+
+
+*:before, *:after {
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+*/
+
+
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+/*
